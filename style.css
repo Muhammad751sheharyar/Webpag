@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-image: url(images/pexels-ki-lee-2150262028-31136889.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5rem 0;
+  }
+  
+  .hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .menu {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #fff;
+  }
+  
+  .menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .pizza-item {
+    display: inline-block;
+    margin: 1rem;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .pizza-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .pizza-item h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .pizza-item p {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .pizza-item span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
